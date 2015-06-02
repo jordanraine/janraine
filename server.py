@@ -4,7 +4,6 @@ import os
 import requests
 
 app = Flask(__name__)
-#app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 
 janrain_engage_root_url = "https://jordantestapp.rpxnow.com//api/v2/auth_info"
 
