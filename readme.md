@@ -16,7 +16,8 @@
  - Download and unzip the repository
  - Install [dependencies](#installing-dependencies).
  - Set API key in console with:
- -   export JANRAIN_ENGAGE_API_KEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+ - echo "export JANRAIN_ENGAGE_API_KEY='INSERT_API_KEY_HERE'" ~/.bash_profile
+ - source ~/.bash_profile
 ## Requirements
 - Flask==0.10.1
 - Jinja2==2.7.3
