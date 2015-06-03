@@ -15,7 +15,8 @@
 ## Usage
  - Download and unzip the repository
  - Install [dependencies](#installing-dependencies).
- 
+ - Set API key in console with:
+ -   export JANRAIN_ENGAGE_API_KEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ## Requirements
  - Flask 0.10.1
  - Jinja2 2.7.3
@@ -39,9 +40,10 @@ pip install request
 ### Deployment Steps
 In the command line type:
 - heroku login
-- follow steps to login with your heroku account and password.
+- "follow steps to login with your heroku account and password."
 - git init
 - heroku git:remote -a "name of app on heroku dashboard"
+- heroku config:set JANRAIN_ENGAGE_API_KEY=$JANRAIN_ENGAGE_API_KEY
 - git add .
 - git commit -am "This should work"
 - git push heroku master
