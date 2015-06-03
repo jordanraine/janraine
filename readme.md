@@ -7,8 +7,8 @@
 ## Table of Contents
 
 1. [Usage](#usage)
-1. [Requirements][#requirements]
-1. [Development](#development]
+1. [Requirements](#requirements)
+1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Deployment Steps](#deployment-steps)
 
@@ -40,12 +40,7 @@
 
 From within the root directory:
 
-```pip install Flask
-pip install jinja2
-pip install gunicorn
-pip install heroku
-pip install request
-```
+pip install -r /path/to/requirements.txt
 
 ### Deployment Steps
 In the command line type:
